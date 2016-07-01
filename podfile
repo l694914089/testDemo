@@ -1,0 +1,4 @@
+platform :ios, '7.0'
+target :testDemo do
+pod 'SDAutoLayout','~>2.1.2'
+end
