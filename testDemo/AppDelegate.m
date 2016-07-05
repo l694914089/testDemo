@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "AppDelegate+Umeng.h"
+
+//VC
+#import "LGHLoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +20,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // Override point for customization after application launch.   
+    [self setupUMeng];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    LGHLoginViewController * loginVC = [[LGHLoginViewController alloc] init];
+    UINavigationController * baseNav = [[UINavigationController alloc] initWithRootViewController:loginVC];
+    self.window.rootViewController = baseNav;
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

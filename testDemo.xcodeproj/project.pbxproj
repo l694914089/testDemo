@@ -14,6 +14,11 @@
 		B00E88F81D2612A100978318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00E88F61D2612A100978318 /* Main.storyboard */; };
 		B00E88FA1D2612A100978318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00E88F91D2612A100978318 /* Assets.xcassets */; };
 		B00E88FD1D2612A100978318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00E88FB1D2612A100978318 /* LaunchScreen.storyboard */; };
+		B0A46B311D2757AB00B750EE /* AppDelegate+Umeng.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A46B301D2757AB00B750EE /* AppDelegate+Umeng.m */; };
+		B0D15FBF1D2A112700DA38DA /* LGHBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D15FBE1D2A112700DA38DA /* LGHBaseModel.m */; };
+		B0D15FC21D2A129B00DA38DA /* LGHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D15FC11D2A129B00DA38DA /* LGHBaseViewController.m */; };
+		B0D15FC51D2A38A500DA38DA /* LGHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D15FC41D2A38A500DA38DA /* LGHLoginViewController.m */; };
+		B0D15FC81D2A3AB800DA38DA /* LGHBaseTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D15FC71D2A3AB800DA38DA /* LGHBaseTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,16 @@
 		B00E88F91D2612A100978318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B00E88FC1D2612A100978318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B00E88FE1D2612A100978318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0A46B2F1D2757AB00B750EE /* AppDelegate+Umeng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Umeng.h"; sourceTree = "<group>"; };
+		B0A46B301D2757AB00B750EE /* AppDelegate+Umeng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Umeng.m"; sourceTree = "<group>"; };
+		B0D15FBD1D2A112700DA38DA /* LGHBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGHBaseModel.h; sourceTree = "<group>"; };
+		B0D15FBE1D2A112700DA38DA /* LGHBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGHBaseModel.m; sourceTree = "<group>"; };
+		B0D15FC01D2A129B00DA38DA /* LGHBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGHBaseViewController.h; sourceTree = "<group>"; };
+		B0D15FC11D2A129B00DA38DA /* LGHBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGHBaseViewController.m; sourceTree = "<group>"; };
+		B0D15FC31D2A38A500DA38DA /* LGHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGHLoginViewController.h; sourceTree = "<group>"; };
+		B0D15FC41D2A38A500DA38DA /* LGHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGHLoginViewController.m; sourceTree = "<group>"; };
+		B0D15FC61D2A3AB800DA38DA /* LGHBaseTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGHBaseTextField.h; sourceTree = "<group>"; };
+		B0D15FC71D2A3AB800DA38DA /* LGHBaseTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGHBaseTextField.m; sourceTree = "<group>"; };
 		B0EFA6011D261B2800139D20 /* testDemo_PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testDemo_PrefixHeader.pch; sourceTree = "<group>"; };
 		F653AD73DE1E5FFAF3EE280F /* Pods-testDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testDemo/Pods-testDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +90,11 @@
 		B00E88EC1D2612A100978318 /* testDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B0D15FB61D2A10C000DA38DA /* Base */,
+				B0D15FB21D2A106400DA38DA /* VCS */,
+				B0D15FB41D2A109E00DA38DA /* models */,
+				B0D15FB51D2A109E00DA38DA /* views */,
+				B0A46B2E1D27578E00B750EE /* AppDelegage+Other */,
 				B00E88F01D2612A100978318 /* AppDelegate.h */,
 				B00E88F11D2612A100978318 /* AppDelegate.m */,
 				B00E88F31D2612A100978318 /* ViewController.h */,
@@ -95,6 +115,59 @@
 				B0EFA6011D261B2800139D20 /* testDemo_PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0A46B2E1D27578E00B750EE /* AppDelegage+Other */ = {
+			isa = PBXGroup;
+			children = (
+				B0A46B2F1D2757AB00B750EE /* AppDelegate+Umeng.h */,
+				B0A46B301D2757AB00B750EE /* AppDelegate+Umeng.m */,
+			);
+			path = "AppDelegage+Other";
+			sourceTree = "<group>";
+		};
+		B0D15FB21D2A106400DA38DA /* VCS */ = {
+			isa = PBXGroup;
+			children = (
+				B0D15FB31D2A107B00DA38DA /* login */,
+			);
+			path = VCS;
+			sourceTree = "<group>";
+		};
+		B0D15FB31D2A107B00DA38DA /* login */ = {
+			isa = PBXGroup;
+			children = (
+				B0D15FC31D2A38A500DA38DA /* LGHLoginViewController.h */,
+				B0D15FC41D2A38A500DA38DA /* LGHLoginViewController.m */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		B0D15FB41D2A109E00DA38DA /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		B0D15FB51D2A109E00DA38DA /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		B0D15FB61D2A10C000DA38DA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B0D15FBD1D2A112700DA38DA /* LGHBaseModel.h */,
+				B0D15FBE1D2A112700DA38DA /* LGHBaseModel.m */,
+				B0D15FC01D2A129B00DA38DA /* LGHBaseViewController.h */,
+				B0D15FC11D2A129B00DA38DA /* LGHBaseViewController.m */,
+				B0D15FC61D2A3AB800DA38DA /* LGHBaseTextField.h */,
+				B0D15FC71D2A3AB800DA38DA /* LGHBaseTextField.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		DA066D8B3548864D19A57A7A /* Frameworks */ = {
@@ -228,8 +301,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B00E88F51D2612A100978318 /* ViewController.m in Sources */,
+				B0A46B311D2757AB00B750EE /* AppDelegate+Umeng.m in Sources */,
+				B0D15FBF1D2A112700DA38DA /* LGHBaseModel.m in Sources */,
+				B0D15FC51D2A38A500DA38DA /* LGHLoginViewController.m in Sources */,
+				B0D15FC81D2A3AB800DA38DA /* LGHBaseTextField.m in Sources */,
 				B00E88F21D2612A100978318 /* AppDelegate.m in Sources */,
 				B00E88EF1D2612A100978318 /* main.m in Sources */,
+				B0D15FC21D2A129B00DA38DA /* LGHBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

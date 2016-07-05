@@ -13,7 +13,7 @@
 		<key>01A0CB589B67272E9CE3D3C18C303610</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AFE35C5DF3E5E67712968499C96D441A</string>
+			<string>A6BF56729030E2B38A3CD146BA27BD2E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -101,9 +101,22 @@
 		<key>0888AA2783F648090257D4C623B24388</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F02D29F39CE7060341DB8977C4DB0A01</string>
+			<string>0C266AD89C47DBB105F8CCE5394D0336</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>09C12FFB8F0E9BADFCF6860A4B857982</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UMMobClick.framework</string>
+			<key>path</key>
+			<string>umsdk_IOS_analyics_no-idfa_v4.0.5/UMMobClick.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>0B43F4490C62DD669CBB6FA64BACCE8A</key>
 		<dict>
@@ -129,6 +142,21 @@
 			<string>BACEFE4A15BD815BDEFFA7A610B6A509</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>0C266AD89C47DBB105F8CCE5394D0336</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UITableView+SDAutoTableViewCellHeight.m</string>
+			<key>path</key>
+			<string>SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>0CEC0A6FF0092AE8320EC16329E2D247</key>
 		<dict>
@@ -157,6 +185,19 @@
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>1CFA8B322BAD27AB97973E4AFAB8DDE9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SDAutoLayout-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>1E363DF53FF1A568C5CB227A836C1AD0</key>
 		<dict>
@@ -191,21 +232,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>2D16F8E6CEBEA8A1B9E628B0A7DF71E4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIView+SDAutoLayout.m</string>
-			<key>path</key>
-			<string>SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -236,7 +262,7 @@
 		<key>3CE91B7D46327C4A67F304BAE7451E2B</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2D16F8E6CEBEA8A1B9E628B0A7DF71E4</string>
+			<string>5C470F2A8483C8EC17D004B5484A55D2</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -253,7 +279,43 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>4B2A75FB17DD2D546F2F025B292B8C20</key>
+		<key>3F2ABF02C3EE03AF569F87AA43EA2DEE</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4413FD4E26E1BE1BA4C9EBC67BF35291</string>
+				<string>0C266AD89C47DBB105F8CCE5394D0336</string>
+				<string>A2D2101E56B253784865BE10A37BA1A7</string>
+				<string>5C470F2A8483C8EC17D004B5484A55D2</string>
+				<string>421F37ED6B8FFC9F9E051D957F1C4FB9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>SDAutoLayout</string>
+			<key>path</key>
+			<string>SDAutoLayout</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>421F37ED6B8FFC9F9E051D957F1C4FB9</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CD21B1EA77128C5FF3E6A395B632DA26</string>
+				<string>A6BF56729030E2B38A3CD146BA27BD2E</string>
+				<string>1CFA8B322BAD27AB97973E4AFAB8DDE9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/SDAutoLayout</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4413FD4E26E1BE1BA4C9EBC67BF35291</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -261,15 +323,17 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UITableView+SDAutoTableViewCellHeight.h</string>
 			<key>path</key>
-			<string>SDAutoLayout-prefix.pch</string>
+			<string>SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>535D4BD0CFC625E24C8282A96AFA7339</key>
 		<dict>
 			<key>fileRef</key>
-			<string>ACC065E6D08D3204F2723AB6B0C21D1B</string>
+			<string>4413FD4E26E1BE1BA4C9EBC67BF35291</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -301,6 +365,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>5C470F2A8483C8EC17D004B5484A55D2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIView+SDAutoLayout.m</string>
+			<key>path</key>
+			<string>SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>6262FC7B5D5140651F5D976D236CE769</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -328,40 +407,10 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>7023348D6332F0CC7FAE2FBE16B215D5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>73CB67E04DB5D370EFC4E917D9E04DB1</string>
-				<string>AFE35C5DF3E5E67712968499C96D441A</string>
-				<string>4B2A75FB17DD2D546F2F025B292B8C20</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/SDAutoLayout</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>73CB67E04DB5D370EFC4E917D9E04DB1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>SDAutoLayout.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>757764CEFF421B6A6386248BD45E905F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C5EE62FEAA9DA6F86F67781D8856BE53</string>
+			<string>A2D2101E56B253784865BE10A37BA1A7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -405,7 +454,7 @@
 			<array>
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
 				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>C7FDD3C8658CB04B37D630AEEF935BA7</string>
+				<string>9ADCBA90EC529F580B70FB6C2A45088A</string>
 				<string>B7DDA6300BE3E7C49ABA3DADC3CA720A</string>
 				<string>D5F38215D5E4AC8C73D8B454A5A26F36</string>
 			</array>
@@ -438,25 +487,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>949A41D3355C1550C506010E889FA7BE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>ACC065E6D08D3204F2723AB6B0C21D1B</string>
-				<string>F02D29F39CE7060341DB8977C4DB0A01</string>
-				<string>C5EE62FEAA9DA6F86F67781D8856BE53</string>
-				<string>2D16F8E6CEBEA8A1B9E628B0A7DF71E4</string>
-				<string>7023348D6332F0CC7FAE2FBE16B215D5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SDAutoLayout</string>
-			<key>path</key>
-			<string>SDAutoLayout</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>9851B9C9F98D098DB1050896110337E8</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -470,10 +500,24 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>9ADCBA90EC529F580B70FB6C2A45088A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3F2ABF02C3EE03AF569F87AA43EA2DEE</string>
+				<string>E6AB8C13CA7DC4D34E25D647224A9E7D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>9BA7B154A049F32C0B01AAC7C0EA35B6</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>73CB67E04DB5D370EFC4E917D9E04DB1</string>
+			<string>CD21B1EA77128C5FF3E6A395B632DA26</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -537,6 +581,34 @@
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
+		<key>A2D2101E56B253784865BE10A37BA1A7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIView+SDAutoLayout.h</string>
+			<key>path</key>
+			<string>SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A6BF56729030E2B38A3CD146BA27BD2E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SDAutoLayout-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>AA25702D13C8748BC95895FBCF14444D</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -550,40 +622,12 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>ACC065E6D08D3204F2723AB6B0C21D1B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UITableView+SDAutoTableViewCellHeight.h</string>
-			<key>path</key>
-			<string>SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>AF80BD9BD045E731E1AE42DDCA05CBB6</key>
 		<dict>
 			<key>fileRef</key>
 			<string>AA25702D13C8748BC95895FBCF14444D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>AFE35C5DF3E5E67712968499C96D441A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SDAutoLayout-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B1EBF314AE7F3EAA74D3A32878FA1AF8</key>
 		<dict>
@@ -733,7 +777,7 @@
 		<key>BC918805BE97E1A1CE5B8BECE1A76D53</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>73CB67E04DB5D370EFC4E917D9E04DB1</string>
+			<string>CD21B1EA77128C5FF3E6A395B632DA26</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -809,34 +853,6 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>C5EE62FEAA9DA6F86F67781D8856BE53</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIView+SDAutoLayout.h</string>
-			<key>path</key>
-			<string>SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7FDD3C8658CB04B37D630AEEF935BA7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>949A41D3355C1550C506010E889FA7BE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>CA207B29053547914AA35FA625208136</key>
 		<dict>
 			<key>baseConfigurationReference</key>
@@ -868,6 +884,32 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
+		</dict>
+		<key>CD21B1EA77128C5FF3E6A395B632DA26</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>SDAutoLayout.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CDFE1B7EA766EFD4CF7498AA4C6CA976</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>09C12FFB8F0E9BADFCF6860A4B857982</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D41D8CD98F00B204E9800998ECF8427E</key>
 		<dict>
@@ -935,18 +977,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F02D29F39CE7060341DB8977C4DB0A01</key>
+		<key>E6AB8C13CA7DC4D34E25D647224A9E7D</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>CDFE1B7EA766EFD4CF7498AA4C6CA976</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>UITableView+SDAutoTableViewCellHeight.m</string>
+			<string>UMengAnalytics-NO-IDFA</string>
 			<key>path</key>
-			<string>SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.m</string>
+			<string>UMengAnalytics-NO-IDFA</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>

@@ -1,10 +1,13 @@
 PODS:
   - SDAutoLayout (2.1.2)
+  - UMengAnalytics-NO-IDFA (4.0.5)
 
 DEPENDENCIES:
   - SDAutoLayout (~> 2.1.2)
+  - UMengAnalytics-NO-IDFA
 
 SPEC CHECKSUMS:
   SDAutoLayout: 4910758003bbb043003700915b00f53fbc2bf512
+  UMengAnalytics-NO-IDFA: 965a219b05475ff2a4c09a164139a27bbaa0e25b
 
 COCOAPODS: 0.39.0
