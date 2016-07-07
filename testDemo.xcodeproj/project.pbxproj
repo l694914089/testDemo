@@ -34,6 +34,7 @@
 		B00E88F91D2612A100978318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B00E88FC1D2612A100978318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B00E88FE1D2612A100978318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B099FDCC1D2B46970091BE28 /* MacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefinition.h; sourceTree = "<group>"; };
 		B0A46B2F1D2757AB00B750EE /* AppDelegate+Umeng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Umeng.h"; sourceTree = "<group>"; };
 		B0A46B301D2757AB00B750EE /* AppDelegate+Umeng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Umeng.m"; sourceTree = "<group>"; };
 		B0D15FBD1D2A112700DA38DA /* LGHBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGHBaseModel.h; sourceTree = "<group>"; };
@@ -160,6 +161,7 @@
 		B0D15FB61D2A10C000DA38DA /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				B099FDCC1D2B46970091BE28 /* MacroDefinition.h */,
 				B0D15FBD1D2A112700DA38DA /* LGHBaseModel.h */,
 				B0D15FBE1D2A112700DA38DA /* LGHBaseModel.m */,
 				B0D15FC01D2A129B00DA38DA /* LGHBaseViewController.h */,

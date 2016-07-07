@@ -42,6 +42,7 @@
         self.extendedLayoutIncludesOpaqueBars = NO;
         self.modalPresentationCapturesStatusBarAppearance = NO;
     }
+    self.view.backgroundColor = COLOR(230, 230, 230, 1);
     // Do any additional setup after loading the view.
 }
 

@@ -32,6 +32,7 @@
 @interface LGHLoginViewController (){
     LGHBaseTextField * _userNameField;
     LGHBaseTextField * _passWordField;
+    UIButton * _loginBtn;
 }
 
 @end
@@ -48,15 +49,54 @@
 -(void)setupLoginView{
     LGHBaseTextField * userNameField = [LGHBaseTextField new];
     _userNameField = userNameField;
-    [self.view sd_addSubviews:@[userNameField]];
     
-    userNameField.backgroundColor = [UIColor redColor];
+    LGHBaseTextField * passWordField = [LGHBaseTextField new];
+    _passWordField = passWordField;
+    
+    UIButton * loginBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    _loginBtn = loginBtn;
+    [loginBtn setTitle:@"登 录" forState:UIControlStateNormal];
+    
+    [self.view sd_addSubviews:@[userNameField,passWordField,_loginBtn]];
+    
+    //布局
     userNameField.sd_layout
+    .heightIs(25)
     .leftSpaceToView(self.view, 20)
     .rightSpaceToView(self.view, 20)
     .topSpaceToView(self.view, 20);
     
+    passWordField.sd_layout
+    .heightRatioToView(_userNameField,1)
+    .leftEqualToView(_userNameField)
+    .rightEqualToView(_userNameField)
+    .topSpaceToView(_userNameField,20);
+    
+    loginBtn.sd_layout
+    .heightIs(30)
+    .rightSpaceToView(self.view,50)
+    .leftSpaceToView(self.view,50)
+    .topSpaceToView(passWordField,20);
+    
+    
+    userNameField.sd_cornerRadius = @(3.0);
+    passWordField.sd_cornerRadius = @(3.0);
+    loginBtn.sd_cornerRadius = @(3.0);
+    
+    userNameField.backgroundColor = [UIColor whiteColor];
+    passWordField.backgroundColor = [UIColor whiteColor];
+    loginBtn.backgroundColor = COLOR(243, 197, 53, 1);
+    
+    [loginBtn addTarget:self action:@selector(loginBtnClicked:) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    
+    
 }
+-(IBAction)loginBtnClicked:(UIButton *)sender{
+    DLog(@"登录按钮点击");
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -23,6 +23,7 @@
 
 //base
 #import "LGHBaseTextField.h"
+#import "MacroDefinition.h"
 
 #define DEMO_CALL 1
 
